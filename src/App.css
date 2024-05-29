@@ -1,0 +1,21 @@
+.input-form{
+    height: 100%;
+    width: 100%;
+    border-radius:20px ;
+    border: 2px dashed #1475cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    max-height: 190px;
+    @media only screen and (max-width: 927px){
+        height: 150px;
+    }
+    @media only screen and (max-width: 732px){
+        height: 100px;
+    }
+}
+.remedy::-webkit-scrollbar {
+    display: none;
+}
